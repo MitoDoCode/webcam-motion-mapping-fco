@@ -12,7 +12,7 @@ HOW TO RUN:
    This installs the required packages: MediaPipe, OpenCV, and NumPy.
 
 3. Check the model files.
-   Make sure the .task files are in the same folder as Implementation.py.
+   Make sure the .task files are in the same folder as fpv_pipeline_faceLandmarker.py.
 
 4. Run the program.
    Connect a webcam and double-click the run.bat file in the extracted
