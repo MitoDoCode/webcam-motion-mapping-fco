@@ -1,5 +1,4 @@
-HOW TO RUN THE PROGRAM
-======================
+HOW TO RUN:
 
 1. Extract the program.
    Right-click program.zip, choose "Extract All", and open the extracted
