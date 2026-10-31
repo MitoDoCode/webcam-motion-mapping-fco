@@ -1,8 +1,6 @@
 HOW TO RUN:
 
-1. Extract the program.
-   Right-click program.zip, choose "Extract All", and open the extracted
-   folder.
+1. Download every file in repository
 
 2. Install the requirements.
    Install Python if it is not yet installed. Then open a command prompt
