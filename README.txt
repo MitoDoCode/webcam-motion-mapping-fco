@@ -1,6 +1,6 @@
 HOW TO RUN:
 
-1. Download every file from repository
+1. Download every file from the repository and place them on the same folder.
 
 2. Install the requirements.
    Install Python if it is not yet installed. Then open a command prompt
