@@ -79,6 +79,49 @@ You can also double-click `run.bat` from File Explorer.
 
 ---
 
+##  Running on Arch Linux
+
+If you are using **Arch Linux**, follow these instructions instead of the Windows setup above.
+
+### 1. Install the Required Packages
+
+Open your terminal and run:
+
+```bash
+sudo pacman -S python python-pip python-opencv git
+```
+
+### 2. Clone the Repository
+
+```bash
+git clone https://github.com/MitoDoCode/webcam-motion-mapping-fco.git
+cd webcam-motion-mapping-fco
+```
+
+### 3. Create a Virtual Environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+### 4. Install the Requirements
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 5. Run the Program
+
+Make sure your webcam is connected, then run:
+
+```bash
+python fpv_pipeline_faceLandmarker.py
+```
+
+---
+
 ### 4. First Run
 
 On the first run, the program may automatically download the required `.task` model files if they are not already present.
@@ -111,7 +154,7 @@ F → Toggle Face Landmarker
 
 ---
 
-#  Project Structure
+# Project Structure
 
 After cloning the repository, the project will look similar to:
 
@@ -135,7 +178,7 @@ fpv_pipeline_faceLandmarker.py
 
 ---
 
-#  Troubleshooting
+# Troubleshooting
 
 ## Git is not recognized
 
@@ -206,7 +249,7 @@ Make sure:
 
 ---
 
-#  Tools & Framework Used
+# Tools & Framework Used
 
 | Tools & Framework | Purpose |
 |---|---|
@@ -219,7 +262,7 @@ Make sure:
 
 ---
 
-#  Contributors
+# Contributors
 
 - [**Nouvel03**](https://github.com/Nouvel03)
 - [**MitoDoCode**](https://github.com/MitoDoCode)
