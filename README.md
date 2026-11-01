@@ -122,7 +122,7 @@ python fpv_pipeline_faceLandmarker.py
 
 ---
 
-### 6. First Run
+###  First Run
 
 On the first run, the program may automatically download the required `.task` model files if they are not already present.
 
